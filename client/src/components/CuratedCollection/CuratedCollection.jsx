@@ -50,17 +50,17 @@ const SHUTTERSTOCK_API_TOKEN =
               <div className="curated-collection__overlay">Street Art</div>
               <img src={Heart} className="curated-collection__heart" alt=""/>
               </div>
-              <div className="curated-collection__container">
+              <div onClick={this.handleOpenModal} className="curated-collection__container">
               <img src={Image2} className="curated-collection__image" alt=""/>
               <img src={Heart} className="curated-collection__heart" alt=""/>
               <div className="curated-collection__overlay">Architecture</div>
               </div>
-              <div className="curated-collection__container">
+              <div onClick={this.handleOpenModal} className="curated-collection__container">
               <img src={Image3} className="curated-collection__image" alt=""/>
               <img src={Heart} className="curated-collection__heart" alt=""/>
               <div className="curated-collection__overlay">Art</div>
               </div>
-              <div className="curated-collection__container">
+              <div onClick={this.handleOpenModal} className="curated-collection__container">
               <img src={Image4} className="curated-collection__image" alt=""/>
               <img src={Heart} className="curated-collection__heart" alt=""/>
               <div className="curated-collection__overlay">Graffiti</div>
@@ -69,22 +69,22 @@ const SHUTTERSTOCK_API_TOKEN =
 
 
           <div className="curated-collection__list">
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image10} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Street Scenes</div>
                 </div>
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image6} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Outdoors</div>
                 </div>
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image5} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Portraits</div>
                 </div>
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image12} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Outdoors</div>
@@ -92,22 +92,22 @@ const SHUTTERSTOCK_API_TOKEN =
            </div>
 
           <div className="curated-collection__list">
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image9} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Buildings</div>
                 </div>
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image11} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Portraits</div>
                 </div>
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image7} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Beach</div>
                 </div>
-                <div className="curated-collection__container">
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
                 <img src={Image8} className="curated-collection__image" alt=""/>
                 <img src={Heart} className="curated-collection__heart" alt=""/>
                 <div className="curated-collection__overlay">Beach Scenes</div>
