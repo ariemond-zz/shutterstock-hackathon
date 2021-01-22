@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-import Shutterstock from "../../assets/images/Shutterstock.png";
+import Shutterstock from "../../assets/images/shutterstock-logo.svg";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { VscTriangleDown } from "react-icons/vsc";

@@ -11,6 +11,16 @@ modal {
     position: relative;
     padding: 0.5rem 2rem;
 
+    &__top {
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    &__icon {
+        width: 10%;
+        border-radius: 100%;
+    }
+
     &__header {
         padding-bottom: 0.7rem;
         font-family: 'Roboto';

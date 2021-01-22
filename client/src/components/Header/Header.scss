@@ -13,7 +13,7 @@
   &__searchbar {
     display: flex;
     height: 10%;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: rgba(255, 255, 255, 0.7);
   }
   &__searchDrop {
@@ -35,7 +35,7 @@
     padding: 0 1vw;
   }
   &__iconBox {
-    width: 2vw;
+    width: 3vw;
     background-color: #37fcff;
     display: flex;
     justify-content: center;

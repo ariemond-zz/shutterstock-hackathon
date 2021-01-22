@@ -9,7 +9,7 @@ import Street3 from '../../assets/images/street3.jpg';
 import Street4 from '../../assets/images/street4.jpg';
 import Street5 from '../../assets/images/street5.jpg';
 import Street6 from '../../assets/images/street6.jpg';
-
+import MainStreet from '../../assets/images/image1.jpg';
 
 export default class CuratedModal extends Component {
 
@@ -17,7 +17,10 @@ export default class CuratedModal extends Component {
     render() {
         return (
             <div className="modal">
-                <h1 className="modal__header">Street Art</h1>
+            <div className="artist-modal__top">
+            <img src={MainStreet} alt="" className="modal__icon"/>
+            <h1 className="artist-modal__header">Street Art</h1>
+            </div>
                 <img onClick={this.props.closeModal} className="modal__closeButton" src={closeButton} alt=""/>
                 <div className="modal__images">
                     <img src={Street1} alt="" className="modal__image"/>

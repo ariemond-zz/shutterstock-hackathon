@@ -43,6 +43,7 @@ class CuratedCollection extends React.Component {
       <section className="curated-collection">
         <h2 className="curated-collection__header">Curated collection</h2>
         <div className="curated-collection__gallery">
+        
           <div className="curated-collection__list">
             <div
               onClick={this.handleOpenModal}
@@ -50,69 +51,70 @@ class CuratedCollection extends React.Component {
             >
               <img src={Image1} className="curated-collection__image" alt="" />
               <div className="curated-collection__overlay">Street Art</div>
-              <img src={Heart} className="curated-collection__heart" alt="" />
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image2} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
+              <img src={Heart} className="curated-collection__heart" alt=""/>
+              </div>
+              <div onClick={this.handleOpenModal} className="curated-collection__container">
+              <img src={Image2} className="curated-collection__image" alt=""/>
               <div className="curated-collection__overlay">Architecture</div>
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image3} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
+              <img src={Heart} className="curated-collection__heart" alt=""/>
+              </div>
+              <div onClick={this.handleOpenModal} className="curated-collection__container">
+              <img src={Image3} className="curated-collection__image" alt=""/>
               <div className="curated-collection__overlay">Art</div>
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image4} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
+              <img src={Heart} className="curated-collection__heart" alt=""/>
+              </div>
+              <div onClick={this.handleOpenModal} className="curated-collection__container">
+              <img src={Image4} className="curated-collection__image" alt=""/>
               <div className="curated-collection__overlay">Graffiti</div>
+              <img src={Heart} className="curated-collection__heart" alt=""/>
             </div>
           </div>
 
           <div className="curated-collection__list">
-            <div className="curated-collection__container">
-              <img src={Image10} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Street Scenes</div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image10} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Street Scenes</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
+                </div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image6} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Outdoors</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
+                </div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image5} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Portraits</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
+                </div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image12} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Outdoors</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
             </div>
-            <div className="curated-collection__container">
-              <img src={Image6} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Outdoors</div>
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image5} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Portraits</div>
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image12} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Outdoors</div>
-            </div>
+
           </div>
 
           <div className="curated-collection__list">
-            <div className="curated-collection__container">
-              <img src={Image9} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Buildings</div>
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image11} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Portraits</div>
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image7} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Beach</div>
-            </div>
-            <div className="curated-collection__container">
-              <img src={Image8} className="curated-collection__image" alt="" />
-              <img src={Heart} className="curated-collection__heart" alt="" />
-              <div className="curated-collection__overlay">Beach Scenes</div>
-            </div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image9} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Buildings</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
+                </div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image11} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Portraits</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
+                </div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image7} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Beach</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
+                </div>
+                <div onClick={this.handleOpenModal} className="curated-collection__container">
+                <img src={Image8} className="curated-collection__image" alt=""/>
+                <div className="curated-collection__overlay">Beach Scenes</div>
+                <img src={Heart} className="curated-collection__heart" alt=""/>
+                </div>
           </div>
         </div>
         <div className="curated-collection__seymour">
