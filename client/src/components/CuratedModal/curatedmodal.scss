@@ -1,7 +1,7 @@
 @import "../../styles/global.scss";
 
 modal {
-    width: 100rem;
+    width: 60rem;
     height: 100rem;
 }
 
@@ -10,8 +10,6 @@ modal {
     font-size: 1.4rem;
     position: relative;
     padding: 0.5rem 2rem;
-    z-index: 3;
-    
 
     &__header {
         padding-bottom: 0.7rem;
@@ -19,10 +17,10 @@ modal {
     }
 
     &__closeButton {
-        height: 1.3rem;
+        height: 2rem;
         position: absolute;
-        top: -1%;
-        right: -1%;
+        top: 1%;
+        right: 3%;
     }
 
     &__alert {
@@ -52,7 +50,6 @@ modal {
     margin-top: 5rem;
     height: 40rem;
     width: 60rem;
-    
 }
 
 .ReactModal__Overlay--after-open,
