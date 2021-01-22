@@ -31,7 +31,6 @@ app.use(bodyParser.urlencoded());
 //   });
 
 
-
 const sstk = require("shutterstock-api");
 
 const applicationConsumerId = "sE5XHMB3ifbH7GGlP5LjL5URZGzjPRIf";
