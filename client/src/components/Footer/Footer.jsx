@@ -15,6 +15,13 @@ function Footer() {
                 <p className="footer__main-heading">We have more than <span className="footer__span">350 million images</span> as of September 30, 2020.</p>
             </div>
 
+            <div className="footer__search-div">
+                <input 
+                type="text"
+                className="footer__search"
+                placeholder="English"></input>
+            </div>
+
             <div className="footer__content">
                 <h5 className="footer__link-header">Content</h5>
                 <p className="footer__links">Homepage</p>
@@ -71,17 +78,20 @@ function Footer() {
             </div>
 
             <div className="footer__content">
-            <h5 className="footer__link-header">Support</h5>
-            <p className="footer__links">Get help</p>
-            <p className="footer__links">Accessibility</p>
+                <h5 className="footer__link-header">Support</h5>
+                <p className="footer__links">Get help</p>
+                <p className="footer__links">Accessibility</p>
 
-            <h5 className="footer__link-header">Legal</h5>
-            <p className="footer__links">Terms of Use</p>
-            <p className="footer__links">License agreement</p>
-            <p className="footer__links">Privacy Policy</p>
-            <p className="footer__links">Social media guidelines</p>
-        </div>
+                <h5 className="footer__link-header">Legal</h5>
+                <p className="footer__links">Terms of Use</p>
+                <p className="footer__links">License agreement</p>
+                <p className="footer__links">Privacy Policy</p>
+                <p className="footer__links">Social media guidelines</p>
+            </div>
+            </div>
 
+            <div className="footer__bottom">
+                <p className="footer__copyright">© 2003-2021 Shutterstock, Inc.</p>
             </div>
         </section>
     )
