@@ -5,6 +5,7 @@
     display: flex;
     width: 100%;
     flex-direction: column;
+    font-family: 'Roboto';
 
     &__blocks {
         display: flex;
@@ -38,10 +39,12 @@
         width: 80%;
         padding: 2% 2% 3% 2%;
         color: #C4c4c4;
+        font-family: 'Roboto';
     }
     &__span {
         font-weight: 700;
         color: white;
+        font-family: 'Roboto';
     }
     &__search-div {
         width: 20%;
@@ -49,11 +52,13 @@
     }
     &__link-header {
         margin-bottom: 15%;
+        font-family: 'Roboto';
     }
     &__links {
         font-size: 0.7rem;
         margin-bottom: 15%;
         color: #C4c4c4;
+        font-family: 'Roboto';
     }
     &__search {
         border-radius: 10px;
@@ -62,6 +67,7 @@
         padding-left: 2%;
         font-size: 0.7rem;
         color: #C4c4c4;
+        font-family: 'Roboto';
     }
     &__bottom {
         padding: 3%;

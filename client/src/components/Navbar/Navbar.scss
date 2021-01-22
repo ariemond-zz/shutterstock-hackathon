@@ -1,0 +1,49 @@
+.Navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  height: 60px;
+  width: 100vw;
+  background-color: rgba(117, 117, 117, 0.4);
+  overflow: hidden;
+  &__logo {
+    height: 80%;
+    width: 20%;
+    max-width: 300px;
+  }
+  &__menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+  }
+  &__menuItem {
+    margin: 0 1vw;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1rem;
+  }
+  &__menuSideItem {
+    padding: 0 1vw;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    border-left: 2px solid grey;
+  }
+  &__account {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    padding: 3%;
+  }
+  &__pricing {
+    color: white;
+    font-size: 1rem;
+  }
+  &__heart {
+    margin: 0 5%;
+  }
+}

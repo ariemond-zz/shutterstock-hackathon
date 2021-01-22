@@ -1,13 +1,15 @@
-import React from 'react';
-import HomePage from './components/HomePage/HomePage';
+import React from "react";
+import "./App.scss";
+import { Header, HomePage } from "./components";
 
-const URL = 'https://api.shutterstock.com/v2/images/search';
-const key = '?api_key=sE5XHMB3ifbH7GGlP5LjL5URZGzjPRIf';
+const URL = "https://api.shutterstock.com/v2/images/search";
+const key = "?api_key=sE5XHMB3ifbH7GGlP5LjL5URZGzjPRIf";
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <Header />
+      <HomePage />
     </div>
   );
 }
