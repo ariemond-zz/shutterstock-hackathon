@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import "./Header.scss";
 import { AiOutlinePicture } from "react-icons/ai";
 import { GoTriangleDown } from "react-icons/go";
+import { FiSearch } from "react-icons/fi";
 
 export default function Header() {
   return (
@@ -17,6 +18,9 @@ export default function Header() {
             <GoTriangleDown className="Header__searchDown" />
           </div>
           <input className="Header__search" />
+          <div className="Header__iconBox">
+            <FiSearch className="Header__icon" />
+          </div>
         </div>
       </div>
     </div>
