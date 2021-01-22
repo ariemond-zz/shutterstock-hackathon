@@ -15,7 +15,7 @@ import ArtistModal from "../ArtistModal/ArtistModal";
 const SHUTTERSTOCK_API_TOKEN =
   "v2/c0U1WEhNQjNpZmJIN0dHbFA1TGpMNVVSWkd6alBSSWYvMjkyMTc4MzQzL2N1c3RvbWVyLzMvZjRBU0R5NUgzMm8zYWdlUE9tc0lZa1FETmpDTXYxa2N4c0xRRXFraDhDZjk4VlRCR1JKRDZ4a1M5Y1lxbkZNRmI1cTlrRXFtLU9LN3VFUmFINHFHeEhVemE3WXNjMUFhVUgzMW5xRWthLVdidEt4eHRvYTFFTXZ3aExqclIydUwyMjJSWk50bVB4eUdyaEI1QnRwYTlqNXVmSTdwdjZDcUYwdFlLN0JNaDBmelRaM2JCWVBHdzZGZmtSRXpHVmlrVUFWc1ZXLVN3Yi1qWHoyNTZaMEZCUQ";
 
-class CuratedCollection extends React.Component {
+class FeatureArtist extends React.Component {
   state = {
     isOpen: false,
   };
@@ -105,4 +105,4 @@ class CuratedCollection extends React.Component {
     );
   }
 }
-export default CuratedCollection;
+export default FeatureArtist;
