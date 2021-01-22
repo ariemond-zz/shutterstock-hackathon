@@ -12,9 +12,10 @@
   }
   &__searchbar {
     display: flex;
-    height: 10%;
+    height: 20%;
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0.7);
+    margin-right: 1%;
   }
   &__searchDrop {
     width: 200px;
@@ -36,7 +37,7 @@
   }
   &__iconBox {
     width: 3vw;
-    background-color: #37fcff;
+    background-color: #d24c41;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,5 +45,24 @@
   &__icon {
     height: 50%;
     width: 50%;
+  }
+  &__SBI {
+    width: 8vw;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    padding: 1%;
+    overflow: hidden;
+  }
+  &__SBIIcon {
+    margin-right: 5%;
+    width: 20px;
+    height: 20px;
+  }
+  &__SearchByImage {
+    font-size: 1rem;
   }
 }

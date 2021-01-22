@@ -14,6 +14,7 @@ modal {
   &__top {
     display: flex;
     margin-bottom: 5%;
+    align-items: center;
   }
 
   &__icon {
@@ -25,6 +26,7 @@ modal {
   &__header {
     padding-bottom: 0.7rem;
     font-family: "Roboto";
+    margin-left: 2%;
   }
 
   &__closeButton {
@@ -58,8 +60,8 @@ modal {
 
 .ReactModal__Content {
   margin-top: 5rem;
-  height: 40rem;
-  width: 60rem;
+  height: 70%;
+  width: 50%;
 }
 
 .ReactModal__Overlay--after-open,

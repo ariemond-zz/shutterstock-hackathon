@@ -6,7 +6,9 @@ function Footer() {
     <section className="footer">
       <div className="footer__blocks">
         <div className="footer__block1">Shutterstock Music</div>
-        <div className="footer__block2">Black Representation</div>
+        <div className="footer__block2">
+          <p>A Resource Hub for Black Representation</p>
+        </div>
       </div>
 
       <div className="footer__main">
