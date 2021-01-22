@@ -7,6 +7,7 @@ class HomePage extends React.Component {
   state = {
     data: [],
   };
+  
   componentDidMount() {
     axios
       .get("https://api.shutterstock.com/v2/images/search", {
